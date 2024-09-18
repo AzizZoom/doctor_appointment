@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment</title>
+    <link rel="icon" type="image/png" href="images/logo7.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav_class">
+        <a href="https://doctorsapp.in/"><img src="images/logo7.png" alt="Logo" id="nav_logo"></a>
+        <span id="nav_span"><a href="index.html">Dr. Kapil Shukla</a></span>
+    </nav>
+    <div class="container">
+        <div class="profile-header">
+            <img src="images/male_doctor.png" alt="Doctor Profile" class="profile-picture">
+            <div class="profile-info">
+                <h3>Dr. Kapil Shukla</h3>
+                <p>MBBS, MD<br>Pediatrician</p>
+                <a href="https://doctorsapp.in/doctors/dr-kapil-shukla-pediatrician-mbbs,md/8108716370"><button>View Profile</button></a>
+            </div>
+        </div>
+
+        <div class="summary">
+            <div class="summary-left">
+                <h3>Book Appointment</h3>
+                <p>First Visit Fees: ₹ 600 Pay at Clinic<br>Follow Up Fees: ₹ 300 Pay at Clinic</p>
+            </div>
+            <div class="summary-right">
+                <div class="medical-logo">
+                    <i class="fa-solid fa-house-chimney-medical"></i>
+                    <label for="fa-house-chimney-medical">In-Clinic</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="book-appointment">
+            <form action="" method="get">
+                <div class="clinic-location-div">
+                    <label for="clinic-location"><h3>Clinic Name</h3></label>
+                    <div id="clinic-location-select-div">
+                        <select name="clinic-location" class="dropdown-style" id="clinic-location">
+                            <option value="location-1">Radha's Little Steps Pediatrics clinic tata motors hatkesh Hatkesh Udhog Nagar, Konkan Division, Maharashtra, India, 401107</option>
+                        </select>
+                        <span id="location-selected">Radha's Little Steps Pediatrics clinic tata motors hatkesh Hatkesh Udhog Nagar, Konkan Division, Maharashtra, India, 401107</span>
+                    </div>
+                </div>
+                <div class="appointment-date-div">
+                    <label for="appointment-date"><h3>Appointment Date</h3></label>
+                    <input type="date" name="appointment-date" id="appointment-date" class="dropdown-style">
+                </div>
+                <div class="available-slots-div">
+                    <label for="available-slots"><h3>Available Slots</h3></label>
+                    <div class="available-slots-example-div">
+                        <button id="available-btn"></button>
+                        <label for="available-btn">Available</label>
+                        <button id="booked-btn"></button>
+                        <label for="booked-btn">Booked</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <h6>No Slots Available</h6>
+    </div>
+    <script src="https://kit.fontawesome.com/7f43ff4039.js" crossorigin="anonymous"></script>
+</body>
+</html>
